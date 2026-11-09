@@ -1,9 +1,10 @@
-# Lista blanca exacta (frente R5, 2026-11-09): 97 archivos del caso + LICENSE + .gitignore.
+# Lista blanca exacta (frente R5, 2026-11-09): 97 archivos del caso + LICENSE + .gitignore + vercel.json (noindex, #9b).
 # Todo lo demás se ignora. Archivo nuevo = agregarlo aquí a propósito, tras la auditoría R5 y la revisión de Juan.
 # Nunca: _fuentes-privadas/ (incluye sintetico/landing/ y su generador), mapa de anonimización, tabla de equivalencias, .pbix/PBIP.
 /*
 !/.gitignore
 !/LICENSE
+!/vercel.json
 !/CONFIDENCIALIDAD.md
 !/Caso_Panel_ejecutivo_mercadeo.pdf
 !/README.md
